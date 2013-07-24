@@ -1,71 +1,151 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Drupal-level by tplcom</title>
+﻿<html>
+<head>
+<title>What is your Drupal level?</title>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Drupal-level</h1>
-        <p>A Drupal progress table with working hours.</p>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Julius+Sans+One:400' rel='stylesheet' type='text/css'>
+<link href='style.css' rel='stylesheet' type='text/css'>
+</head>
 
-        <p class="view"><a href="https://github.com/tplcom/drupal-level">View the Project on GitHub <small>tplcom/drupal-level</small></a></p>
+<body>
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
-        <ul>
-          <li><a href="https://github.com/tplcom/drupal-level/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/tplcom/drupal-level/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/tplcom/drupal-level">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<div class="page">
+<div class="centered">
+<h1>A Drupal developer level table</h1>
+<p>So, you are playing with Drupal for a long time? You want to check your level?</p>
+<p>Count your <b>Drupal working hours</b> and find out what kind of Drupal developer you are!</p>
+<p>
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="theoploumis" data-hashtags="DrupalLevel">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<div class="fb-like" data-href="http://developers.facebook.com/docs/reference/plugins/like" data-send="true" data-width="450" data-show-faces="false" data-font="tahoma"></div>
+</p>
+</div>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<table width="100%" cellpadding="3" cellspacing="3" class="progress">
+	<tr class="first">
+		<td>Hours</td>
+    <td>Level</td>
+		<td><a href="http://drupal.org/project/modules">Modules</a></td>
+		<td><a href="http://drupal.org/project/themes">Themes</a></td>
+		<td><a href="http://drupal.org/project/distributions">Distributions</a></td>
+		<td>Development</td>
+		<td>Learning</td>
+		<td>Community</td>
+		<td>$/hr</td>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>Nursling</td>
+		<td><a href="http://drupal.org/project/drupal">Core</a>, Core's Blog, Overlay</td>
+		<td>Edit core's Bartik</td>
+		<td>What is this?</td>
+		<td>FTP clients, localhost</td>
+		<td>Online Videos</td>
+		<td>Searching for <a href="http://drupal.org/project/modules">modules</a></td>
+		<td>0</td>
+	</tr>
+	<tr>
+		<td>800</td>
+    <td>Beginner</td>
+		<td><a href="http://drupal.org/project/views">Views</a>, <a href="http://drupal.org/project/admin_menu">Administration Menu</a></td>
+		<td>Download themes from D.O.</td>
+		<td>Nice idea!</td>
+		<td>FTP clients, localhost</td>
+		<td>Online Videos, <a href="http://drupal.org/irc">Drupal irc chat</a></td>
+		<td>Read <a href="http://drupal.org/project/issues/">issues</a></td>
+		<td>3</td>
+	</tr>
+	<tr>
+		<td>1600</td>
+    <td>Wannabe Developer</td>
+		<td><a href="http://drupal.org/project/panels">Panels</a>, <a href="http://drupal.org/project/ds">Display Suite</a>, <a href="http://drupal.org/project/wysiwyg">WYSIWYG</a>, Views advanced settings</td>
+		<td>Create subthemes</td>
+		<td>Let's try <a href="http://drupal.org/project/stark">Stark</a></td>
+		<td>FTP clients, localhost</td>
+		<td>Online Videos, <a href="http://drupal.org/documentation">D.O. documentation</a></td>
+		<td>Read issues, <a href="http://association.drupal.org">D.O. Association</a></td>
+		<td>5</td>
+	</tr>
+	<tr>
+		<td>2400</td>
+    <td>Small Developer</td>
+		<td>Edit modules, <a href="http://drupal.org/project/i18n">Internationalization</a></td>
+		<td><a href="http://drupal.org/node/1089662">tpl.php files</a></td>
+		<td><a href="https://www.acquia.com/downloads">Aquia stack</a></td>
+		<td>Basic <a href="http://drupal.org/project/drush">Drush</a> commands (dl, up, ard etc)</td>
+		<td>D.O. documentation, Q&A portals, <a href="http://drupal.org/forum">Drupal forums</a></td>
+		<td>Write issues, <a href="http://localize.drupal.org/translate">translate</a> D.O. projects</td>
+		<td>10</td>
+	</tr>
+	<tr>
+		<td>3200</td>
+    <td>Intermediate Developer</td>
+		<td>Create small modules, <a href="http://drupal.org/project/rules">Rules</a>, <a href="http://drupal.org/project/devel">Devel</a></td>
+		<td>tpl.php files, Base themes</td>
+		<td>Install minimal core profile</td>
+		<td>Drush sync, work online</td>
+		<td><a href="http://drupal.org/books">Books</a>, README.txt files</td>
+		<td>Write/Follow issues, join <a href="http://groups.drupal.org/">Groups</a></td>
+		<td>15</td>
+	</tr>
+  <tr>
+		<td>4800</td>
+    <td>Drupal Developer</td>
+		<td>Create modules, Can use <a href="http://drupal.org/project/commerce">Commerce</a>, <a href="http://drupal.org/project/features">Features</a>, <a href="http://drupal.org/project/feeds">Feeds</a></td>
+		<td>tpl.php files, template functions, <a href="http://sass-lang.com/">SASS</a>/<a href="http://lesscss.org/">LESS</a></td>
+		<td>Play with <a href="http://drupal.org/project/commerce_kickstart">Commerce Kickstart</a></td>
+		<td>Drush, staging sites, can do <a href="http://drupal.org/documentation/migrate">Drupal migration</a></td>
+		<td>Books, <a href="http://groups.drupal.org/events">Drupal events</a></td>
+		<td>Write/Follow issues, use <a href="https://api.drupal.org/api/drupal">API</a></td>
+		<td>20</td>
+	</tr>
+	<tr>
+		<td>6400</td>
+    <td>Advanced Drupal Developer</td>
+		<td>Publish modules in D.O., can use <a href="http://drupal.org/project/modules/?f[0]=bs_project_sandbox%3A1">sandbox modules</a></td>
+		<td>Create theme from scratch</td>
+		<td>Create installation profile</td>
+		<td>Drush advanced commands, <a href="http://drupal.org/documentation/git">git</a></td>
+		<td>Books, Drupal events</td>
+		<td>Create/Apply <a href="http://drupal.org/patch">patches</a>, become a project maintainer</td>
+		<td>50</td>
+	</tr>
+  <tr>
+		<td>8000</td>
+    <td>Senior Drupal Developer</td>
+		<td>Maintain modules in D.O., can create <a href="http://api.drupal.org/api/drupal/modules%21simpletest%21drupal_web_test_case.php/class/DrupalTestCase/7">tests</a></td>
+		<td>Create theme from scratch</td>
+		<td>Create installation profile</td>
+		<td>Drush, git, <a href="http://drupal.org/project/features">features</a>, <a href="http://drupal.org/project/patterns">patterns</a></td>
+		<td>Books, Drupal events</td>
+		<td>Join <a href="http://groups.drupal.org/drupal-initiatives">D.O. Initiatives</a>, write for <a href="http://drupal.org/planet">Drupal planet</a></td>
+		<td>100</td>
+	</tr>
+	<tr>
+		<td>10000+</td>
+    <td>Drupal Guru</td>
+		<td><a href="http://drupal.org/node/3060/committers">commit to Drupal core</a>, inspect <a href="http://drupal.org/security">security issues</a></td>
+		<td>Anything</td>
+		<td>Anything</td>
+		<td>"I don't know!"</td>
+		<td>"I don't know!"</td>
+		<td>Organize Drupal events, write D.O. documentation, write Drupal books</td>
+		<td>200+</td>
+	</tr>
+</table>
+</div>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+<div class="centered bottom">
+<p>Created by a <a href="http://TheodorosPloumis.com/en">Drupal developer</a> under <a href="http://www.gnu.org/licenses/gpl.html">GNU Licence</a></p>
+</div>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/tplcom">tplcom</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+</body>
 </html>
