@@ -1,0 +1,68 @@
+body {
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 20px;
+color: #fff;
+background: #d3f7fc;
+background: url(images/bg.jpg) no-repeat center center fixed #d3f7fc; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='bg.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='bg.jpg', sizingMethod='scale')";
+}
+
+.page {
+width: 80%;
+padding: 1% 3%;
+margin: 0 auto;
+background: rgba(31, 51, 90, 0.86);
+border-radius: 10px;
+border: 4px solid #FFF;
+box-shadow: 0 5px 14px 1px #EE1212;
+}
+
+h1 {
+text-transform: uppercase;
+}
+
+.centered {
+text-align: center;
+padding-bottom: 4%;
+}
+
+.bottom {
+color: #000
+}
+
+.bottom a {
+color: blue;
+}
+
+a {
+color: #ddd;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+p {
+font-family: 'Julius Sans One', sans-serif;
+}
+
+.first {
+font-weight: bold;
+}
+
+table {
+border-collapse:collapse;
+}
+
+tr {
+border-bottom: 1px solid #686E8F;
+}
+
+td {
+padding: 10px;
+}
